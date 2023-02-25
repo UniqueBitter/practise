@@ -1,5 +1,6 @@
 package top.test.dew;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -12,6 +13,9 @@ public class Join implements Listener {
     public void playerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
         Location location = event.getPlayer().getLocation();
-        event.setJoinMessage( player + "§e上线了");
+        if (!(player.getName().equals("Unique_Bitter"))) {
+            return;
+        }
+        event.setJoinMessage("§e啊哈哈哈哈哈UB来咯！");
     }
 }
