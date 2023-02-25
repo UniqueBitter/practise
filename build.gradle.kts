@@ -3,8 +3,8 @@ plugins {
 
 }
 
-group = "top.test.zhaoluproject"
-version = "1.0-SNAPSHOT"
+group = "top.test.dew"
+version = "1.0"
 
 repositories {
     mavenCentral()
