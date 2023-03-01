@@ -14,8 +14,4 @@ public class Join implements Listener{
                 event.setJoinMessage(null);
             }
         }
-        if (player.getName().equals("Unique_Bitter")) {
-            event.setJoinMessage(null);
-        }
-    }
 }
