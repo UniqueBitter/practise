@@ -2,3 +2,25 @@ name: dew
 version: 1.19
 main: top.test.dew.Main
 api-version: 1.19
+
+commands:
+  fly:
+    description: 开启飞行模式
+    usage: /<command> 来开关飞行
+    permission: system.ub.fly
+    permission-message: 你没有足够的权限
+  ubzs:
+    description: 夸奖ub真帅
+    usage: /<command>
+    permission: system.ub.ubzs
+    permission-message: 你没有足够的权限
+  ouhuang:
+    description: 欧皇！
+    usage: /<command>
+    permission: system.ub.ouhuang
+    permission-message: 你没有足够的权限
+  dew:
+    description: 朝露系列指令
+    usage: /<command> reload
+    permission: system.ub.dew
+    permission-message: 你没有足够的权限
