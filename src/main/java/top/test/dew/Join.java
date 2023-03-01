@@ -14,4 +14,4 @@ public class Join implements Listener{
                 event.setJoinMessage(null);
             }
         }
-}
+}}
