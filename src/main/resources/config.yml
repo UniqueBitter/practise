@@ -1,0 +1,10 @@
+蜘蛛女王:
+  display: "pl.monster.east.Bossspider"
+  drop:
+    one:
+      #概率
+      weight: 50
+      items:
+        - "食物_焦炙肉扒 1"
+      message:
+          - "你破开女王肚子，发现了一块牛排"

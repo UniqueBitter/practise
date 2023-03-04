@@ -15,6 +15,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     compileOnly("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
+
     compileOnly(fileTree("libs"))
 }
 
