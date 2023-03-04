@@ -1,5 +1,5 @@
-蜘蛛女王:
-  display: "pl.monster.east.Bossspider"
+马贼团团长:
+  display: "pl.monster.south.bosspigman"
   drop:
     one:
       #概率
@@ -7,4 +7,4 @@
       items:
         - "食物_焦炙肉扒 1"
       message:
-          - "你破开女王肚子，发现了一块牛排"
+          - "§f你捡起一份便当，打开惊喜发现§a焦炙肉扒§f一份"

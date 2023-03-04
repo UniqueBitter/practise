@@ -22,5 +22,5 @@ commands:
   dew:
     description: 朝露系列指令
     usage: /<command> reload
-    permission: system.ub.dew
+    permission: system.ub.dew.reload
     permission-message: 你没有足够的权限

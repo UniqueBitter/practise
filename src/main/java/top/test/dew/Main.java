@@ -1,6 +1,7 @@
 package top.test.dew;
 
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import top.test.dew.command.Fly;
 import top.test.dew.command.Ouhuang;
